@@ -1,0 +1,13 @@
+[Unit]
+Description=TEMPer2 via Mqtt
+Documentation=https://www.github.com/ozczecho
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/mike/temper2
+ExecStart=/home/mike/temper2/service.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

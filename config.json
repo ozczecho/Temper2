@@ -1,0 +1,15 @@
+{
+    "logLevel": "INFO",
+    "mqtt": {
+        "host": "host",
+        "port":  2299,
+        "user": "user",
+        "password": "pwd",
+        "client": "TEMPer2"
+    },
+    "publishServerRackTemperatureTopic": "home/server_room/temperature",
+    "hidQueryPath": "/usr/local/bin/hid-query",
+    "systemTemperatureScript": "./cubi_temp.sh",
+    "publishSystemTemperatureTopic": "home/cubi/temperature",
+    "scanInterval": 60
+}
